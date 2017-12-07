@@ -1,0 +1,38 @@
+
+Core Features
+-------------
+
+	- SecretBase
+		[x] Has health
+		[x] Can be destroyed (Note: Show Gameover overlay)
+
+	- Drones
+		[x] Has health
+		[x] Can be destroyed
+		[x] Can be built
+		[x] Can shoot projectiles (at Enemies)
+		[x] Can acquire targets (enemies)
+
+	- EnemySpawner
+		Notes: No graphics
+		[x] Can spawn enemies
+		[] Can be controlled (in code. Paused, etc.)
+
+	- Enemies
+		[x] Has health
+		[x] Can shoot projectiles (at Drones and Base)
+		[x] Can be spawned
+		[x] Can aquire targets
+		[x] Can move towards target
+
+	- Projectile
+		[x] Has damage value 
+		[x] Can be spawned (by Drones and Enemies)
+
+	- Drone build button(s) (UI)
+		[] Can (de)activate the build mode
+	
+	- Gameover overlay (UI)
+		[] Has a constant text message (Note: Use uth::Sprite, not uth::Text. Reason: uth::Text is _broken_)
+		[] Can be shown and hidden
+		[] Can react to user input (Tap to hide, etc.)

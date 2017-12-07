@@ -1,0 +1,162 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="source\main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="source\DroneFactory.cpp">
+      <Filter>Source Files\Drones</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Drone.cpp">
+      <Filter>Source Files\Drones</Filter>
+    </ClCompile>
+    <ClCompile Include="source\BulletFactory.cpp">
+      <Filter>Source Files\Bullets</Filter>
+    </ClCompile>
+    <ClCompile Include="source\EnemyFactory.cpp">
+      <Filter>Source Files\Enemies</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Enemy.cpp">
+      <Filter>Source Files\Enemies</Filter>
+    </ClCompile>
+    <ClCompile Include="source\UIFactory.cpp">
+      <Filter>Source Files\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Button.cpp">
+      <Filter>Source Files\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="source\IngameScene.cpp">
+      <Filter>Source Files\Scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="source\PropFactory.cpp">
+      <Filter>Source Files\Props</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Base.cpp">
+      <Filter>Source Files\Props</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Projectile.cpp">
+      <Filter>Source Files\Bullets</Filter>
+    </ClCompile>
+    <ClCompile Include="source\VisionCone.cpp">
+      <Filter>Source Files\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Health.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="source\GameStartScene.cpp">
+      <Filter>Source Files\Scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="source\GameOverScene.cpp">
+      <Filter>Source Files\Scenes</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="include\UIFactory.h">
+      <Filter>Header Files\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Button.h">
+      <Filter>Header Files\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="include\BulletFactory.h">
+      <Filter>Header Files\Bullets</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Scenes.hpp">
+      <Filter>Header Files\Scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="include\IngameScene.h">
+      <Filter>Header Files\Scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Enemy.h">
+      <Filter>Header Files\Enemies</Filter>
+    </ClInclude>
+    <ClInclude Include="include\EnemyFactory.h">
+      <Filter>Header Files\Enemies</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Drone.h">
+      <Filter>Header Files\Drones</Filter>
+    </ClInclude>
+    <ClInclude Include="include\DroneFactory.h">
+      <Filter>Header Files\Drones</Filter>
+    </ClInclude>
+    <ClInclude Include="include\PropFactory.h">
+      <Filter>Header Files\Props</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Base.h">
+      <Filter>Header Files\Props</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Util.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Stat.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Projectile.h">
+      <Filter>Header Files\Bullets</Filter>
+    </ClInclude>
+    <ClInclude Include="include\VisionCone.h">
+      <Filter>Header Files\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Health.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\GameStartScene.h">
+      <Filter>Header Files\Scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="include\GameOverScene.h">
+      <Filter>Header Files\Scenes</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{aad8b9a8-5990-4e0e-b81c-0bc17155869a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{88da68a1-a55d-4e5b-98d4-638e696f6b83}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Bullets">
+      <UniqueIdentifier>{83bf9e04-44c0-4204-b146-099a835c3485}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Drones">
+      <UniqueIdentifier>{d9676247-0b86-4f7d-9d7c-c45f21a74b79}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\UI">
+      <UniqueIdentifier>{a3552b6c-de90-4b84-a363-37995af88410}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Scenes">
+      <UniqueIdentifier>{7f8720bf-ddbd-4fa3-95bd-8771c57ea396}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Enemies">
+      <UniqueIdentifier>{0116c60f-ea2b-4b06-977b-35e68edd6ec2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Bullets">
+      <UniqueIdentifier>{a78430da-4854-4582-bfd8-089e6d41cfa1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Drones">
+      <UniqueIdentifier>{42534115-b496-47dd-af61-751b21fe8069}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Enemies">
+      <UniqueIdentifier>{0b1ef0ee-89f3-493f-a2e6-ca668f2a1fb3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\UI">
+      <UniqueIdentifier>{5f3e68a1-09ad-41b1-822e-82c8e3d4ad5b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Scenes">
+      <UniqueIdentifier>{024edaf2-6588-42a6-b1c2-ef95b310f7bd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Props">
+      <UniqueIdentifier>{3eb5a3cc-5181-4671-bb87-6b31c2d7af1e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Props">
+      <UniqueIdentifier>{e853680e-9ae0-4160-bfb0-31cc7d1d2f56}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Common">
+      <UniqueIdentifier>{4fb6f681-e7cd-4bad-84a7-b46194720296}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Common">
+      <UniqueIdentifier>{3a2ddf21-4be1-4b02-97cb-5cea0419b50c}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="TODO.txt" />
+  </ItemGroup>
+</Project>
